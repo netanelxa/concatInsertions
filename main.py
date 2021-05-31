@@ -91,7 +91,7 @@ def concatCsvFiles(dirPath,date_time):
 
 
 def main(argv):
-    dirPath = argv
+    dirPath = argv[0]
     # Taking date for the filename
     now = datetime.now()
     date_time = now.strftime("%Y%m%d")
